@@ -1,28 +1,46 @@
+
+
 body {
-    font-size: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: black;
-    }
-    h1 {
-        background: red;
-        font-size: 400%;
-        color: black;
-        text-align: center;
-        text-shadow: 1px 2px 0 white;
-        border: 5px solid white;
-    }
-    h2 {
-        color: black;
-        text-shadow: 1px 2px 0 white;
-
-    }
-    p {
-        color: black;
-    }
-
-header {
+font-size: 100%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: black;
+}
+h1 {
+    background: red;
+    font-size: 400%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 2px 0 white;
+    border: 5px solid white;
+}
+h2 {
+    color: black;
+    text-shadow: 1px 2px 0 white;
 
 }
+
+h3 {
+    text-shadow: 2px 3px 0 silver;
+    text-align: center;
+}
+p {
+    color: black;
+    text-align: center;
+}
+
+/* Header */
+
+header li a:hover {
+    background-color: white;
+}
+
+header button {
+    background-color: slategrey;
+    width: 100px;
+    border: red;
+    font-size: smaller;
+}
+
 
 
 /* Middle section */
@@ -50,11 +68,11 @@ header {
     width: 1200px;
 }
 
-/* Footer stuff */
+/* Footer */
 
 footer {
     background: red;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 ul {
@@ -71,6 +89,7 @@ footer ul {
 
 footer  li {
     float: left;
+    text-align: center;
 }
 
 footer li a {
@@ -92,7 +111,7 @@ footer li a:hover {
 #leftbar {
     text-align: center;
     width: 300px;
-    height: 1150px;
+    height: 1725px;
     float: left;
     padding: 1px 1px 1px 1px;
     margin-left: 1%;
@@ -107,7 +126,7 @@ footer li a:hover {
 #rightbar {
     text-align: center;
     width: 200px;
-    height: 1150px;
+    height: 1725px;
     float: right;
     padding: 1px 1px 1px 1px;
     margin-top: 20px;
@@ -122,9 +141,9 @@ footer li a:hover {
     margin-left: 350px;
     margin-right: 250px;
     background-color: slategrey;
-    border: black;
+    border: white;
     border-radius: 1px;
-    height: 150px;
+    height: 225px;
 }
 
 .category h2 {
@@ -135,6 +154,7 @@ footer li a:hover {
     background-color: red;
 }
 
+/* Buttons */
 
 button {
     color: black;
@@ -149,6 +169,11 @@ button {
     text-emphasis-style: bold;
 }
 
+button:hover {
+
+        background-color: red;
+    }
+
 #credits {
     float: right;
     margin-top: 15px;
@@ -156,3 +181,88 @@ button {
     text-shadow: 1px 2px 0 slategrey;
 }
 
+/* Pictures */
+
+
+
+
+.images ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.images  li {
+    float: left;
+    text-align: center;
+}
+
+.images li a {
+    display: block;
+    color: black;
+    text-shadow: 1px 2px 0 slategrey;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.images li a:hover {
+    border: 3px dashed black;
+}
+
+.wands  {
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    padding-right: 62px;
+    padding-left: 62px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.staves {
+    padding-right: 75px;
+    padding-left: 75px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+}
+
+.potions {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.weapons {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: -20px;
+}
+
+.categoryheading {
+    float: center;
+}
+
+/* 
+
+Why is the category section (including the seperate header) hightlighting like a link?
+
+How can I space out my images in the category section? How can I rotate the wands 45 degrees?
+
+Why is sitemap dropped down?
+
+How can I center the text in the footer in that ul, as well as the buttons in the header?
+
+Generally how does the code I have in .images ul/li/li a:hover and the same in the footer work? 
+
+Having trouble understanding what determined the positioning of elements on the page.
+Mostly done by trial and error and imitation. Is it their order in the HTML document?
+How does relative/static/fixed position work? How does float work?
+
+How can I change the cursor? 
+
+How can I change what links look like before and after being clicked?
+
+Can I import fonts to use? 
+
+*/
