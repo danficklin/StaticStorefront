@@ -1,0 +1,158 @@
+body {
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: black;
+    }
+    h1 {
+        background: red;
+        font-size: 400%;
+        color: black;
+        text-align: center;
+        text-shadow: 1px 2px 0 white;
+        border: 5px solid white;
+    }
+    h2 {
+        color: black;
+        text-shadow: 1px 2px 0 white;
+
+    }
+    p {
+        color: black;
+    }
+
+header {
+
+}
+
+
+/* Middle section */
+
+#middle {
+
+}
+
+.subheading {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    text-align: center;
+    height: 30px;
+    color: white;
+    text-shadow: 1px 2px 0 red;
+
+}
+
+.categoryheading {
+    margin-top: -30px;
+    margin-left: 400px;
+    text-align: center;
+    background: silver;
+    height: 30px;
+    width: 1200px;
+}
+
+/* Footer stuff */
+
+footer {
+    background: red;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: square;
+    
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer  li {
+    float: left;
+}
+
+footer li a {
+    display: block;
+    color: black;
+    text-shadow: 1px 2px 0 slategrey;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    background-color: white;
+}
+
+
+/* Left sidebar  */
+
+#leftbar {
+    text-align: center;
+    width: 300px;
+    height: 1150px;
+    float: left;
+    padding: 1px 1px 1px 1px;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 20px;
+    background: slategrey; 
+    border: 2px solid white;
+}
+
+/* Right sidebar */
+
+#rightbar {
+    text-align: center;
+    width: 200px;
+    height: 1150px;
+    float: right;
+    padding: 1px 1px 1px 1px;
+    margin-top: 20px;
+    margin-right: 1%;
+    background: slategrey; 
+    border: 2px solid white;
+}
+
+/* Categories of item */
+
+.category {
+    margin-left: 350px;
+    margin-right: 250px;
+    background-color: slategrey;
+    border: black;
+    border-radius: 1px;
+    height: 150px;
+}
+
+.category h2 {
+    text-align: center;
+}
+
+.category button a:hover {
+    background-color: red;
+}
+
+
+button {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: .3em .3em;
+    border: 2px solid black;
+    width: 600px;
+    text-emphasis-style: bold;
+}
+
+#credits {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    text-shadow: 1px 2px 0 slategrey;
+}
+
