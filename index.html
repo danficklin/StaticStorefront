@@ -8,21 +8,28 @@
         <title>Pendrak's Eldritch Emporium</title>
     </head>
     <body>
-        <header>
-                <button id="login"><a href="#">Login</a></button>
-                <button id= "register"><a href="#">Register</a></button>
+        <header id="header">
+            <ul id="navigation">
+                <li><button id="login"><a href="#">Login</a></button></li>
+                <li><button id= "register"><a href="#">Register</a></button></li>
+                <li><button id= "cart"><a href="#">Cart</a></button></li>
+            </ul>
         </header>
         <h1>Pendrak's Eldritch Emporium</h1>
         <h2 class="subheading">A magic item shop for the discerning adventurer</h2>
         <section id="rightbar">
             <h2>Disclaimer</h2>
+            <br />
             <p>Magic items are illegal or restricted in some universes, timelines, countries, or cities. Please refer to your local
                 laws and regulations regarding the possession, purchase, and transfer of magic items. </p>
+                <br />
             <p>Pendrak's Magic Item shop is not responsible for any legal or civil penalties a customer might incur as a result of
                 purchasing or shipping magic items.</p>
+                <br />
             <p>Due to local or regional restrictions, Pendrak's Magic shop does not ship to the following locations: Borogravia,
-                Durmstrang, Greenwich Village, pre-Pevensie Narnia, Harad (Near or Far), Dalmacia, Tar Valon, and Canada. </p>
-            <p>Use magic items responsibly.</p>
+                Durmstrang, Greenwich Village, pre-Pevensie Narnia, Harad (Near or Far), Dalmacia, the Kingdom of Nomes, Tar Valon, and Canada. </p>
+                <br />
+                <p>Use magic items responsibly. Pendrak's is not responsible for any death, dismemberment, permanent resizing, color-change, dysmorpia, brain-damage, or any other condition suffered as a result of use of magic items purchased or obtained from Pendrak's Eldritch Emporium.</p>
             <br />
         </section>
         <section id="leftbar">
@@ -100,7 +107,7 @@
                     <img class="potions" src="./assets/scroll3.jpg" width= '75' height= '75'  alt="Potion">
                     <img class="potions" src="./assets/potion4.jpg" width= '75' height= '75'  alt="Potion">
                     <img class="potions" src="./assets/scroll4.jpg" width= '75' height= '75'  alt="Potion">
-                <button>Browse potions and scrolls</button>
+                <button><a href="#">Browse potions and scrolls</a><button>
             </div>
             <div class="category">
                 <h3>Wands</h3>
@@ -113,7 +120,7 @@
                     <img class="wands" src="./assets/wand6.jpg" width= '30' height= '150'  alt="Wand">
                     <img class="wands" src="./assets/wand7.jpg" width= '30' height= '150'  alt="Wand">
                     <img class="wands" src="./assets/wand8.jpg" width= '30' height= '150'  alt="Wand">
-                <button>Browse wands</button>
+                <button><a href="#">Browse wands</a></button>
             </div>
             <div class="category">
                 <h3>Rods and Staves</h3>
@@ -124,39 +131,39 @@
                     <img class="staves" src="./assets/staff2.png" width= '100' height= '100'  alt="Staff">
                     <img class="staves" src="./assets/rod2.jpg" width= '100' height= '100'  alt="Rod">
                     <img class="staves" src="./assets/staff3.jpeg" width= '100' height= '100'  alt="Rod">
-                <button>Browse rods and staves</button>
+                <button><a href="#">Browse rods and staves</a></button>
             </div>
             <div class="category">
                 <h3>Magic Weapons</h3>
-                <p>Even the BDF needs something to hits badguys with. Here you'll find </p>
+                <p>Even the BDF needs something to hits badguys with. Here you'll find magically enchanted weapons perfect for overcoming that DR 10/magic.</p>
                     <img class="weapons" width= '100' height= '100' src="./assets/sword.jpg"  alt="Sword">
                     <img class="weapons" width= '100' height= '100' src="./assets/bow.jpg" alt="Bow">
                     <img class="weapons" width= '100' height= '100' src="./assets/axe.jpg"  alt="Axe">
                     <img class="weapons" width= '100' height= '100' src="./assets/spear.jpg"  alt="Spear">
-                <button>Browse magic weapons</button>
+                <button><a href="#">Browse magic weapons</a></button>
             </div>
             <div class="category">
                 <h3>Magic Armor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perferendis perspiciatis non blanditiis repudiandae amet eveniet hic consequuntur. Fugiat temporibus animi sed laudantium provident possimus modi nostrum molestias inventore quibusdam.</p>
-                    <img class="wands" src="img/leather.jpg"  alt="Leather armor">
-                    <img class="wands" src="img/shirt.jpg"  alt="Chain shirt">
-                    <img class="wands" src="img/breastplate.jpg"  alt="Breastplate">
-                    <img class="wands" src="img/plate.jpg"  alt="Full plate">
-                <button>Browse magic armor</button>
+                <p>Nothing says, "I don't want you to die" like a gift of magic armor wrapped up under the Yuletide tree. Magic armor can be found here, as well as armor made of special materials such as adamantine and mithril.</p>
+                    <img class="armor" src="./assets/leather.jpg" width= '100' height= '100'  alt="Leather armor">
+                    <img class="armor" src="./assets/chain.jpg" width= '100' height= '100'  alt="Chain shirt">
+                    <img class="armor" src="./assets/breastplate.jpg" width= '100' height= '100'  alt="Breastplate">
+                    <img class="armor" src="./assets/plate.jpg" width= '100' height= '100'  alt="Full plate">
+                <button><a href="#">Browse magic armor</a></button>
             </div>
             <div class="category">
                 <h3>Rings and Wondrous Items</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perferendis perspiciatis non blanditiis repudiandae amet eveniet hic consequuntur. Fugiat temporibus animi sed laudantium provident possimus modi nostrum molestias inventore quibusdam.</p>
-                    <img class="other" src="img/ring.jpg"  alt="Ring">
-                    <img class="other" src="img/boots.jpg"  alt="Boots">
-                    <img class="other" src="img/amulet.jpg"  alt="Amulet">
-                    <img class="other" src="img/gloves.jpg"  alt="Gloves">
-                <button>Browse rings and wondrous items</button>
+                <p>This category is a catch-all for magic itms that do not fit elsewhere. Find magic carpets, bags of holding, boots of striding and springing, amulet of natural armor, and a wide variety of other rings and wondrous items here.</p>
+                    <img class="rings" src="./assets/ring.jpg" width= '100' height= '100'  alt="Ring">
+                    <img class="rings" src="./assets/boots.jpg" width= '100' height= '100'  alt="Boots">
+                    <img class="rings" src="./assets/amulet.jpg" width= '100' height= '100' alt="Amulet">
+                    <img class="rings" src="./assets/gloves.jpg" width= '100' height= '100' alt="Gloves">
+                <button><a href="#">Browse rings and wondrous items</a></button>
             </div>
             <div class="category">
                 <h3>Spell and Magic Item Components</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perferendis perspiciatis non blanditiis repudiandae amet eveniet hic consequuntur. Fugiat temporibus animi sed laudantium provident possimus modi nostrum molestias inventore quibusdam.</p>
-                <button>Browse spell and magic item components</button>
+                <button><a href="#">Browse spell and magic item components</a></button>
             </div>
         </section>
         <footer>
